@@ -1,19 +1,14 @@
  *{
     margin:0;
-    padding:0;
+    padding:20px auto;
  }
- 
-
-}
  #shanto{
-
-    margin:20px auto;
-    max-width:1100px;
-    height:600px;
+    width:500px;
+    height:500px;
+     padding:20px;
+    text-align:right;
     
-    padding-top:20px;
-    text-align:center;
-
+     
  }
  .kausar{
     font-family: "Oswald", sans-serif;
@@ -28,19 +23,25 @@
     padding-left:10px;
     padding-right:10px;
     border:2px solid wheat;
-    background: linear-gradient(red,orange,blue,green);
-    
+    background: linear-gradient(45deg,red,orange,blue,green);
+    text-align:right;
+    margin-top:300px;
+     
  }
- .background-image{
-    background-image:url(kausar.jpg);
-    width:100%;
+ #background-image{
+   clip-path: polygon(35% 0, 100% 0, 100% 35%, 100% 35%, 100% 100%, 51% 100%, 27% 100%, 0 63%, 0% 35%, 0 0);
+    background-image:url(https://img.freepik.com/premium-photo/3d-illustration-crochets-doll-employee-figures-working-front-computer-with-office-room_565941-5404.jpg?w=826);
+    max-width:1100px;
     height:400px;
     background-repeat: no-repeat;
     background-size:cover;
-    margin-top:20px;
+    margin:30px 50px;
     padding-top:20px;
     text-align:center;
     color:tomato;
-
-    
+    background-image:linear-gradient(45deg,#fff);
+ 
  } 
+  .kausar{
+   text-align:right;
+  }
